@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def fizzbuzz():
     """Prints numbers from 1 to 100, replacing multiples of 3 and 5."""
     for i in range(1, 101):
