@@ -1,6 +1,5 @@
-#!/usr/bin/python3
 def fizzbuzz():
-    """Print numbers from 1 to 100 with Fizz, Buzz, and FizzBuzz rules."""
+    """Prints numbers from 1 to 100, replacing multiples of 3 and 5."""
     for i in range(1, 101):
         if i % 3 == 0 and i % 5 == 0:
             print("FizzBuzz", end=" ")
@@ -10,4 +9,3 @@ def fizzbuzz():
             print("Buzz", end=" ")
         else:
             print(i, end=" ")
-    print()  # Print a newline at the end
